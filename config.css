@@ -11,11 +11,11 @@ html {
 
 main {
     width: 100%;
+    max-width: 40rem;
+    margin: auto;
 
     display: grid;
     grid-template-columns: 30rem 1fr;
     grid-template-rows: 1fr;
 }
-main section {
-    border: 1px solid black;
-}
+
